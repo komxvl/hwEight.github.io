@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FilmsONLINE</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+</head>
+<body>
+
+<!--
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-sm-2">Logo</div>
+        <div class="col-sm-7">
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control SearchBar" id="film-name" placeholder="Search film">
+                    <span class="input-group-btn">
+                        <button class="btn btn-defaul SearchButton " id="search" type="submit">
+                            <span class=" glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-3">
+            <ul class="navigation">
+                <li class="nav__item">
+                    <a class="nav__item__link" href="">Login</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__link" href="">Browse</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__link" href="">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <button type="button" class="btn btn-primary">Sony</button>
+        </div>
+        </div>
+        <div class="col-sm-10">
+            <div id="list-item"></div>
+        </div>
+    </div>
+</div>
+-->
+<div class="App__body">
+    <div class="App__sidebar">
+        <form class="SearchForm">
+            <input type="text" class="SearchForm__input" id="film-name" placeholder="Search for movies by name...">
+            <button class="SearchForm__btn" type="submit" id="search">search</button>
+        </form>
+        <div class="SearchCategories">
+            <button class="SearchCategories__btn">popular</button>
+            <button class="SearchCategories__btn">top rated</button>
+            <button class="SearchCategories__btn">upcoming</button>
+        </div>
+    </div>
+    <div class="MovieList" id="list-item">
+
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
