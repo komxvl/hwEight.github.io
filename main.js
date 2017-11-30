@@ -104,9 +104,9 @@ const filmRating = (param) => {
     });
 };
 
-popularBtn.addEventListener('click',function(){filmRating("popular")});
-topRated.addEventListener('click',function(){filmRating("top_rated")});
-upComing.addEventListener('click',function(){filmRating("upcoming")});
+popularBtn.addEventListener('click',() => {filmRating("popular")});
+topRated.addEventListener('click',() => {filmRating("top_rated")});
+upComing.addEventListener('click',() => {filmRating("upcoming")});
 
 
 
